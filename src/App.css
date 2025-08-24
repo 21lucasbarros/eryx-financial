@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+* {
+  user-select: none;
+  outline: none;
+  /* font-size: 14px;
+  border-radius: 7px; */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+button,
+a {
+  cursor: default;
+}

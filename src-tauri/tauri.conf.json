@@ -12,9 +12,14 @@
   "app": {
     "windows": [
       {
-        "title": "eryx-financial",
+        "title": "Eryx Financial",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "center": true,
+
+        "resizable": false,
+        "fullscreen": false,
+        "maximizable": false
       }
     ],
     "security": {
