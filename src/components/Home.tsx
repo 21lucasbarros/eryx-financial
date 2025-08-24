@@ -14,9 +14,26 @@ export default function Home() {
           }}
         ></div>
       </div>
-      <h1 className="text-white text-4xl font-bold text-center pt-20 z-10">
-        Welcome to Eryx Financial
-      </h1>
+      <div className="flex flex-col gap-4 items-center justify-center h-screen">
+        <h1 className="text-white text-4xl font-bold">
+          Welcome to Eryx Financial
+        </h1>
+        <h3 className="text-white text-xl font-light">
+          Elevate your finances with intelligently
+        </h3>
+        <p className="text-white font-light text-base">
+          Experience the future of finance management with our cutting-edge
+          tools and insights.
+        </p>
+        <div className="flex flex-row gap-10">
+          <button className="bg-white text-black font-bold py-2 px-4 rounded">
+            Get Started
+          </button>
+          <button className="bg-black text-white font-bold py-2 px-4 rounded">
+            Learn More
+          </button>
+        </div>
+      </div>
     </section>
   );
 }
